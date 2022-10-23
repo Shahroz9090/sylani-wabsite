@@ -1,0 +1,58 @@
+.menudiv .menuul{
+display: inline-flex ;
+list-style: none;
+margin: 10px;
+gap: 50px;
+
+}
+
+.home{
+    /* border: 1px solid black; */
+     background-color: blue;
+     border-radius: 5px;
+     color: white;
+     width: 60px;
+     text-align: center;
+transition: width 1s , height 1s;
+
+}
+
+.home:hover{
+    background-color: rgb(95, 95, 200);
+    width: 80px;
+    height: 30px;
+}
+
+@media screen and (max-width:991px) {
+    .menudiv .menuul{
+        display: block;
+        list-style: none;
+        margin: 10px;
+        gap: 50px;
+        
+        }
+    
+}
+
+
+h4{
+    display: flex;
+    justify-content: center;
+}
+.sp1{
+    color: blue;
+}
+
+.sp2{
+    color: green;
+}
+
+.imgdiv{
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 50px;
+    position: relative;
+    left: 45%;
+    /* margin-left: 90%; */
+}
